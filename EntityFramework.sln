@@ -1,6 +1,6 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{6A921FFC-887B-4406-A3E6-8E41817020B5}"
 	ProjectSection(SolutionItems) = preProject
@@ -79,6 +79,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{66E974
 	ProjectSection(SolutionItems) = preProject
 		.nuget\packages.config = .nuget\packages.config
 	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HSL", "HSL", "{68DAF8B4-6A7F-44E5-B2D5-A464C3BEF1E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFTest", "EFTest\EFTest.csproj", "{D1B2A324-FD3E-4740-8962-7E3C123906F1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -174,6 +178,14 @@ Global
 		{C0B5124C-0133-4E0B-BF36-A32CE5AD9DAA}.Release|Any CPU.Build.0 = Release|Any CPU
 		{C0B5124C-0133-4E0B-BF36-A32CE5AD9DAA}.ReleaseNet40|Any CPU.ActiveCfg = Release|Any CPU
 		{C0B5124C-0133-4E0B-BF36-A32CE5AD9DAA}.ReleaseNet40|Any CPU.Build.0 = Release|Any CPU
+		{D1B2A324-FD3E-4740-8962-7E3C123906F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1B2A324-FD3E-4740-8962-7E3C123906F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1B2A324-FD3E-4740-8962-7E3C123906F1}.DebugNet40|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1B2A324-FD3E-4740-8962-7E3C123906F1}.DebugNet40|Any CPU.Build.0 = Debug|Any CPU
+		{D1B2A324-FD3E-4740-8962-7E3C123906F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1B2A324-FD3E-4740-8962-7E3C123906F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1B2A324-FD3E-4740-8962-7E3C123906F1}.ReleaseNet40|Any CPU.ActiveCfg = Release|Any CPU
+		{D1B2A324-FD3E-4740-8962-7E3C123906F1}.ReleaseNet40|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -190,5 +202,9 @@ Global
 		{CF1C27F8-D603-4960-BE99-BCF348545368} = {24A9C4D1-E189-4D3A-A2D7-36D3ED51D277}
 		{3D65611F-E8FB-4A33-9196-7836969D6378} = {24A9C4D1-E189-4D3A-A2D7-36D3ED51D277}
 		{C0B5124C-0133-4E0B-BF36-A32CE5AD9DAA} = {24A9C4D1-E189-4D3A-A2D7-36D3ED51D277}
+		{D1B2A324-FD3E-4740-8962-7E3C123906F1} = {68DAF8B4-6A7F-44E5-B2D5-A464C3BEF1E5}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {05763254-524C-4A57-A5D9-49BF1FB2384F}
 	EndGlobalSection
 EndGlobal
